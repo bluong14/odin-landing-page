@@ -34,7 +34,9 @@ body {
 }
 
 .hero-content {
+  display: flex;
   padding: 120px 0;
+  gap: 20px;
 }
 
 .header-logo {
@@ -48,8 +50,46 @@ body {
   gap: 25px;
 }
 
+.hero-text,
+.hero-image {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text {
+  justify-content: space-between;  
+}
+
+.hero-image {
+  height: 250px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 800; /* extra bold */
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 a {
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 550;
+  color: #F9FAF8;
+
+  background-color: #3882F6;
+  width: 135px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
 }
