@@ -132,6 +132,24 @@ body {
   text-align: right;
 }
 
+.action-container {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  margin: 100px 200px;
+  padding: 50px 100px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.action-main-text {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.action-container button {
+  border: 2px solid #F9FAF8;
+}
+
 a {
   font-size: 18px;
   color: #E5E7EB;
