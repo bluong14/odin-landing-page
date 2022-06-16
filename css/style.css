@@ -116,6 +116,22 @@ body {
   text-align: center;
 }
 
+.quote-container {
+  background-color: #E5E7EB;
+  padding: 100px 220px;
+}
+
+.quote-text {
+  color: #1F2937;
+  font-size: 36px;
+}
+
+.quoter {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: right;
+}
+
 a {
   font-size: 18px;
   color: #E5E7EB;
